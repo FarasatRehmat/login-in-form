@@ -1,0 +1,43 @@
+#bg1{
+	background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.alpha{
+	background-color: rgba(0,0,0,0.4);
+}
+.card{
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 5%;
+	width: 45%; 
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0px 0px 10px blue;
+	text-shadow: 2px 2px 2px black;
+}
+.input input{
+	width: 80%;
+	border:2px solid blue;
+	border-left: none;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: 2px 2px 1px black;
+	outline: none;
+}
+.input1 input{
+	width: 80%;
+	border:2px solid blue;
+	border-right: none;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	box-shadow: -2px 2px 1px black;
+	outline: none;
+}
+input::placeholder{
+	color: blue;
+	text-transform: capitalize;
+}
+.m1 button{
+	border-radius: 16px;
+}
